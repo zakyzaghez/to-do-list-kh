@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.leftcontainer {
+    background-color: red;
+    flex: 1;
+    flex-direction: column;
+}
+
+.rightcontainer {
+    background-color: blue;
+    flex: 1;
+}
+
+.imagecontainer {
+    background-color: white;
+    flex: 1;
+    height: 50%;
+    flex-grow: 1;
+}
+
+.menucontainer {
+    background-color: yellow;
+    flex: 1;
+    height: 50%;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.khlogo {
+    object-fit: fill;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.menuitemcontainer {
+    display: flex;
+    background-color: red;
+    border: 1px solid;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+
+.developpement {
+    flex: 1;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555; 
+}
+
+
+.menutext {
+    font-size: 50;
+}
+
+.separator {
+    border-top: 3px solid #bbb;
+}
+
+.menuitemcontainer:hover .square {
+background-color: #F89500;
+}
+
+.menuitemcontainer:hover .menutext {
+text-decoration: underline;
+}
